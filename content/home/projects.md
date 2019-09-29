@@ -11,24 +11,24 @@ subtitle = ""
 [content]
   # Page type to display. E.g. project.
   page_type = "project"
-  
+
   # Filter toolbar (optional).
   # Add or remove as many filters (`[[content.filter_button]]` instances) as you like.
   # To show all items, set `tag` to "*".
   # To filter by a specific tag, set `tag` to an existing tag name.
   # To remove toolbar, delete/comment all instances of `[[content.filter_button]]` below.
-  
+
   # Default filter index (e.g. 0 corresponds to the first `[[filter_button]]` instance below).
   filter_default = 0
-  
+
   # [[content.filter_button]]
   #   name = "All"
   #   tag = "*"
-  
+
   # [[content.filter_button]]
   #   name = "Deep Learning"
   #   tag = "Deep Learning"
-  
+
   # [[content.filter_button]]
   #   name = "Other"
   #   tag = "Demo"
@@ -52,26 +52,28 @@ subtitle = ""
   #   Uncomment (by removing `#`) an option to apply it.
   #   Choose a light or dark text color by setting `text_color_light`.
   #   Any HTML color name or Hex value is valid.
-  
+
   # Background color.
   # color = "navy"
-  
+
   # Background gradient.
   # gradient_start = "DeepSkyBlue"
   # gradient_end = "SkyBlue"
-  
+
   # Background image.
   # image = "background.jpg"  # Name of image in `static/img/`.
   # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
   # text_color_light = true  
-  
+
 [advanced]
  # Custom CSS. 
  css_style = ""
- 
+
  # CSS class.
  css_class = ""
 +++
 
+- **Aug. 2019 - now** We used [the network structure we proposed](https://arxiv.org/abs/1909.05746) to separate vocals and accompaniment in musics for voiceprint recognition, so that when different people sing the same song, the number of singers can be roughly identified. Now this technology has been adopted by Tencent Inc. The samples can be found in [here](tinglok.github.io).
+- **Nov. 2018 - May. 2019** I worked on a project called "Deep-Learning-Based Psychological Measurement System for College Students”, and our team won the national first prize (less than 8%) in Baidu Inc. Proposition Competition topic in China Students Service Outsourcing Innovation and Entrepreneurship Competition. We built the system using TensorFlow, which use VGG-19 to identify facial expression and building chatbot system using LSTM and Self-Attention Mechanism, so that the pre-trained model wes finally deployed into our web system.
