@@ -25,7 +25,10 @@ date_format = "Jan 2006"
   date_start = "2019-07-01"
   date_end = ""
   description = """
-  Learning the end-to-end voice conversion task that based on deep learning.
+  Responsibilities include:
+  
+  * Learning the end-to-end voice conversion task that based on deep learning.
+  * Trying to provide front-end noise reduction and separation for speech recognition, voiceprint recognition and speaker diarization tasks.
   """
 
 [[experience]]
