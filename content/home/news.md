@@ -7,7 +7,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 60  # Order that this section will appear.
 
-title = "Recent Posts"
+title = "Recent News"
 subtitle = ""
 
 [content]
@@ -65,3 +65,6 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
+
+- **Sep., 2019**  My first paper can be seen in [arXiv](https://arxiv.org/abs/1909.05746), which prepares to submit to [ICASSP 2020](https://2020.ieeeicassp.org/).
+- **Jul., 2019** I’m very happy to share that I will join the SMIIP Lab in Duke Kunshan University as a research intern, advised by Prof. Ming Li, 
