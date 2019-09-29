@@ -66,6 +66,8 @@ subtitle = ""
  css_class = ""
 +++
 
-{{% alert note %}}
-Quickly discover relevant content by [filtering publications]({{< ref "/publication/_index.md" >}}).
-{{% /alert %}}
+Li, T., Chen, J., Hou, H., & Li, M. (2019). TF-Attention-Net: An End To End Neural Network For Singing Voice Separation. arXiv preprint arXiv:1909.05746.
+
+#{{% alert note %}}
+#Quickly discover relevant content by [filtering publications]({{< ref "/publication/_index.md" >}}).
+#{{% /alert %}}
