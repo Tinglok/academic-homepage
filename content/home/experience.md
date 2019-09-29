@@ -2,8 +2,8 @@
 # Experience widget.
 widget = "experience"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
-weight = 40  # Order that this section will appear.
+active = false  # Activate this widget? true/false
+weight = 110  # Order that this section will appear.
 
 title = "Experience"
 subtitle = ""
@@ -17,27 +17,14 @@ date_format = "Jan 2006"
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
-
 [[experience]]
-  title = "Research Intern"
-  company = "SMIIP Lab, Duke Kunshan University"
+  title = "Exchange"
+  company = "UCSD"
   company_url = ""
-  location = "Kunshan, China"
-  date_start = "2019-07"
-  date_end = ""
+  location = "California"
+  date_start = "2019-02"
+  date_end = "2019-03"
   description = """
-  Learning the end-to-end voice conversion task that based on deep learning.
+  Exhange student
   """
-
-[[experience]]
-  title = "Research Assistant"
-  company = "Tianjin Key Laboratory of Autonomous Intelligence Technology and Systems, Tiangong University"
-  company_url = ""
-  location = "Tianjin, China"
-  date_start = "2018-09"
-  date_end = "2019-06"
-  description = """
-  Master how to apply neural network to speech processing, especially the source separation task.
-  """
-
 +++
