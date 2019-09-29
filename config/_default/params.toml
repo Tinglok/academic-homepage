@@ -96,7 +96,7 @@ address = {street = "Duke Kunshan University", city = "Kunshan", region = "Jiang
 coordinates = {latitude = "31.416435", longitude = "120.901481"}
 
 # Directions for visitors to locate you.
-directions = "Enter Building 1 and take the stairs to Office 200 on Floor 2"
+# directions = "Enter Building 1 and take the stairs to Office 200 on Floor 2"
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
