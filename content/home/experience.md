@@ -24,7 +24,7 @@ date_format = "Jan 2006"
   location = "Kunshan, China"
   date_start = "2019-07"
   date_end = ""
-  description = """Learning the end-to-end voice conversion task that based on deep learning."""
+  description = "Learning the end-to-end voice conversion task that based on deep learning."
 
 [[experience]]
   title = "Research Assistant"
@@ -33,6 +33,6 @@ date_format = "Jan 2006"
   location = "Tianjin, China"
   date_start = "2018-09"
   date_end = "2019-06"
-  description = """Master how to apply neural network to speech processing, especially the source separation task."""
+  description = "Master how to apply neural network to speech processing, especially the source separation task."
 
 +++
