@@ -66,5 +66,5 @@ subtitle = ""
  css_class = ""
 +++
 
-- **Sep. 2019**  My first paper can be seen in [arXiv](https://arxiv.org/abs/1909.05746), which prepares to submit to [ICASSP 2020](https://2020.ieeeicassp.org/).
-- **Jul. 2019** I’m very happy to share that I will join the [SMIIP Lab](https://sites.duke.edu/dkusmiip/) in Duke Kunshan University as a research intern, advised by Prof. Ming Li.
+- **Sep. 12, 2019:**  My first paper can be seen in [arXiv](https://arxiv.org/abs/1909.05746), which prepares to submit to [ICASSP 2020](https://2020.ieeeicassp.org/).
+- **June. 28, 2019:** I’m very happy to share that I will join the [SMIIP Lab](https://sites.duke.edu/dkusmiip/) in Duke Kunshan University as a research intern, advised by Prof. Ming Li.
