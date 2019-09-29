@@ -93,7 +93,7 @@ address = {street = "Duke Kunshan University", city = "Kunshan", region = "Jiang
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-coordinates = {latitude = "31.416435", longitude = "120.901481"}
+coordinates = {latitude = "31.41743", longitude = "120.89323"}
 
 # Directions for visitors to locate you.
 # directions = "Enter Building 1 and take the stairs to Office 200 on Floor 2"
@@ -243,7 +243,7 @@ plugins_js  = []
   #   2: OpenStreetMap (Mapnik)
   #   3: OpenStreetMap (Mapbox)
   engine = 1
-  api_key = "AIzaSyCSmT623eazYo67uTiVuOrLfO-MwYVe_EE"
+  api_key = ""
   zoom = 15
 
 ############################
