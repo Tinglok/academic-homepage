@@ -38,6 +38,6 @@ date_format = "Jan 2006"
   location = "Tianjin, China"
   date_start = "2018-09-13"
   date_end = "2019-06-23"
-  description = """Master how to apply neural network to speech processing, especially the source separation task."""
+  description = """Mastering how to apply Deep Learning to Speech Processing, especially in Music Information Retrieval."""
 
 +++
