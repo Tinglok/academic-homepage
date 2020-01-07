@@ -23,8 +23,8 @@ bio: My research interests include Source Separation, Speech Enhancement, One-sh
 interests:
 - Source Separation
 - Speech Enhancement
-- One-shot Voice Conversion
 - Music Information Retrieval
+- One-shot Voice Conversion
 
 education:
   courses:
