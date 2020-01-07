@@ -28,7 +28,7 @@ interests:
 
 education:
   courses:
-  - course: BSc in Computer Science
+  - course: B.E. in Computer Science
     institution: Tiangong University
     year: 2016 - Present
 
@@ -59,6 +59,8 @@ user_groups:
 - Visitors
 ---
 
-I am currently an undergraduate student in School of Computer Science and Technology, [Tiangong University](http://www.tiangong.edu.cn/) (Elite Class of Artificial Intelligence, only top 20% students in the department could join the class). Now I am working as a research intern in [Duke Kunshan University](https://dukekunshan.edu.cn/en), advised by [Ming Li](https://scholars.duke.edu/person/MingLi).
+I am currently an undergraduate student in School of Computer Science and Technology, [Tiangong University](http://www.tiangong.edu.cn/) (Elite Class of Artificial Intelligence). Now I am working as a research intern in [Duke Kunshan University](https://dukekunshan.edu.cn/en), advised by [Ming Li](https://scholars.duke.edu/person/MingLi).
 
 My research interests mainly focus on utterance-level speech modeling, particularly towards end-to-end approach based on deep neural network. Since 2019, I have been studying in the area of speech processing in [Speech and Multimodal Intelligent Information Processing (SMIIP) Lab](https://sites.duke.edu/dkusmiip/) directed by Prof. Li.
+
+In my spare time, I like to go to the gym,  which is my habit for nearly seven years.
