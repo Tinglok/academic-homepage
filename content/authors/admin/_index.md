@@ -63,4 +63,4 @@ I am currently an undergraduate student in School of Computer Science and Techno
 
 My research interests mainly focus on utterance-level speech modeling, particularly towards end-to-end approach based on deep neural network. Since 2019, I have been studying in the area of speech processing in [Speech and Multimodal Intelligent Information Processing (SMIIP) Lab](https://sites.duke.edu/dkusmiip/) directed by Prof. Li.
 
-In my spare time, I like to go to the gym,  which is my habit for nearly seven years.
+In my spare time, I like to go to gyms,  which is my habit for nearly seven years.
