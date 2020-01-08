@@ -27,8 +27,8 @@ date_format = "Jan 2006"
   description = """
   Responsibilities include:
   
-  * Learning the end-to-end voice conversion task that based on deep learning.
-  * Trying to provide front-end noise reduction and separation for speech recognition, voiceprint recognition and speaker diarization tasks.
+  * Trying to provide front-end Noise Reduction and Source Separation for Speaker Recognition and Speaker Diarization tasks.
+  * Learning the end-to-end Voice Conversion task that based on Deep Learning.
   """
 
 [[experience]]
