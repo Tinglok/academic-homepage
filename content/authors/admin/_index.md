@@ -59,7 +59,7 @@ user_groups:
 - Visitors
 ---
 
-I am currently an undergraduate student in School of Computer Science and Technology, [Tiangong University](http://www.tiangong.edu.cn/) (Elite Class of Artificial Intelligence). Now I am a research intern in [Duke Kunshan University](https://dukekunshan.edu.cn/en), advised by [Ming Li](https://scholars.duke.edu/person/MingLi).
+I am currently an undergraduate student in School of Computer Science and Technology, [Tiangong University](http://www.tiangong.edu.cn/) (Elite Class of Artificial Intelligence). I am also a research intern in [Duke Kunshan University](https://dukekunshan.edu.cn/en), advised by Prof. [Ming Li](https://scholars.duke.edu/person/MingLi).
 
 My research interests mainly focus on utterance-level speech modeling, particularly towards end-to-end approach based on deep neural network. Since Summer 2019, I have been studying in the area of Speech Processing in [Speech and Multimodal Intelligent Information Processing (SMIIP) Lab](https://sites.duke.edu/dkusmiip/) directed by Prof. Li.
 
