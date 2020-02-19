@@ -18,7 +18,7 @@ organizations:
   url: "http://www.tiangong.edu.cn/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include Source Separation, Speech Enhancement, One-shot Voice Conversion and Music Information Retrieval.
+bio: My research interests mainly focus on speech front-end processing, including but not limiting to separation, enhancement and reverberation.
 
 interests:
 - Source Separation
@@ -59,8 +59,8 @@ user_groups:
 - Visitors
 ---
 
-I am currently an undergraduate student in School of Computer Science and Technology, [Tiangong University](http://www.tiangong.edu.cn/) (Elite Class of Artificial Intelligence). I am also a research intern in [Duke Kunshan University](https://dukekunshan.edu.cn/en), advised by Prof. [Ming Li](https://scholars.duke.edu/person/MingLi).
+I am currently an undergraduate student in School of Computer Science and Technology, [Tiangong University](http://www.tiangong.edu.cn/) (Elite Class of Artificial Intelligence). Also, since Summer 2019, I am a research intern in [Speech and Multimodal Intelligent Information Processing (SMIIP) Lab](https://sites.duke.edu/dkusmiip/), [Duke Kunshan University](https://dukekunshan.edu.cn/en), advised by Prof. [Ming Li](https://scholars.duke.edu/person/MingLi).
 
-My research interests mainly focus on utterance-level speech modeling, particularly towards end-to-end approach based on deep neural network. Since Summer 2019, I have been studying in the area of Speech Processing in [Speech and Multimodal Intelligent Information Processing (SMIIP) Lab](https://sites.duke.edu/dkusmiip/) directed by Prof. Li.
+My research interests mainly focus on speech front-end processing, including but not limiting to separation, enhancement and reverberation. I'll join [Human Language Technology (HLT) Lab](http://ece.nus.edu.sg/hlt/), National University of Singapore, directed by Prof. [Haizhou Li](http://ece.nus.edu.sg/hlt/faculty/).
 
-In my spare time, I like to go to gyms, which is my habit for nearly seven years.
+In my spare time, I like to work out in gyms, which has been my habit for 7 years.
