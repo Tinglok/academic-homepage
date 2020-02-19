@@ -66,5 +66,5 @@ subtitle = ""
  css_class = ""
 +++
 
-- **Sep. 12, 2019:**  My first paper can be seen in [arXiv](https://arxiv.org/abs/1909.05746).
+- **Sep. 12, 2019:**  My first paper can be seen in [arXiv](https://arxiv.org/abs/1909.05746), which is expected to be submitted to Interspeech 2020.
 - **June. 28, 2019:** I’m very happy to share that I will join the [SMIIP Lab](https://sites.duke.edu/dkusmiip/) in Duke Kunshan University as a research intern, advised by Prof. Ming Li.
