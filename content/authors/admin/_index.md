@@ -61,6 +61,6 @@ user_groups:
 
 I am currently an undergraduate student in School of Computer Science and Technology, [Tiangong University](http://www.tiangong.edu.cn/) (Elite Class of Artificial Intelligence). Also, since Summer 2019, I am a research intern in [Speech and Multimodal Intelligent Information Processing (SMIIP) Lab](https://sites.duke.edu/dkusmiip/), [Duke Kunshan University](https://dukekunshan.edu.cn/en), advised by Prof. [Ming Li](https://scholars.duke.edu/person/MingLi).
 
-My research interests mainly focus on speech front-end processing, including but not limiting to separation, enhancement and reverberation. I'll join [Human Language Technology (HLT) Lab](http://ece.nus.edu.sg/hlt/), National University of Singapore, directed by Prof. [Haizhou Li](http://ece.nus.edu.sg/hlt/faculty/).
+My research interests mainly focus on speech front-end processing, including but not limiting to separation, enhancement and reverberation. In this Fall, I'll join [Human Language Technology (HLT) Lab](http://ece.nus.edu.sg/hlt/), [National University of Singapore](http://www.nus.edu.sg/), directed by Prof. [Haizhou Li](http://ece.nus.edu.sg/hlt/faculty/).
 
 In my spare time, I like to work out in gyms, which has been my habit for 7 years.
