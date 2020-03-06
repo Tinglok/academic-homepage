@@ -38,6 +38,11 @@ date_format = "Jan 2006"
   location = "Tianjin, China"
   date_start = "2018-09-13"
   date_end = "2019-06-23"
-  description = """Advised by Prof. [Rize Jin](https://scholar.google.com/citations?user=pDJfVZcAAAAJ&hl=en) and Dr. [Weitao Yuan](https://www.researchgate.net/profile/Weitao_Yuan), I mastered Deep Learning based method for Audio Processing, especially in Music Information Retrieval;"""
+  description = """
+  Responsibilities include:
+  
+  * Advised by Prof. [Rize Jin](https://scholar.google.com/citations?user=pDJfVZcAAAAJ&hl=en) and Dr. [Weitao Yuan](https://www.researchgate.net/profile/Weitao_Yuan), I mastered Deep Learning based method for Audio Processing, especially in Music Information Retrieval;
+  * Learning some basic knowledge about signal processing, such as Short-time Fourier transform (STFT), GMM-HMM and MFCC, etc.
+  """
 
 +++
