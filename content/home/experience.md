@@ -25,7 +25,6 @@ date_format = "Jan 2006"
   date_start = "2019-07-01"
   date_end = ""
   description = """
-  Responsibilities include:
   
   * Advised by Prof. [Ming Li](https://scholars.duke.edu/person/MingLi), I do some research on the utterance-level speech and language processing based on the deep neural network;
   * Trying to do some research about speech front-end processing, including but not limiting to separation, enhancement and reverberation.
@@ -39,7 +38,6 @@ date_format = "Jan 2006"
   date_start = "2018-09-13"
   date_end = "2019-06-23"
   description = """
-  Responsibilities include:
   
   * Advised by Prof. [Rize Jin](https://scholar.google.com/citations?user=pDJfVZcAAAAJ&hl=en) and Dr. [Weitao Yuan](https://www.researchgate.net/profile/Weitao_Yuan), I mastered Deep Learning based method for Audio Processing, especially in Music Information Retrieval;
   * Learning some basic knowledge about signal processing, such as Short-time Fourier transform (STFT), GMM-HMM and MFCC, etc.
