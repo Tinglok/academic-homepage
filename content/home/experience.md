@@ -27,12 +27,12 @@ date_format = "Jan 2006"
   description = """
   Responsibilities include:
   
-  * Advised by Prof. [Ming Li](https://scholars.duke.edu/person/MingLi/), I do some research on the utterance-level speech and language processing based on the deep neural network;
+  * Advised by Prof. [Ming Li](https://scholars.duke.edu/person/MingLi), I do some research on the utterance-level speech and language processing based on the deep neural network;
   * Trying to do some research about speech front-end processing, including but not limiting to separation, enhancement and reverberation.
   """
 
 [[experience]]
-  title = "Research Assistant"
+  title = "Student Research Assistant"
   company = "Tianjin Key Laboratory of Autonomous Intelligence Technology and Systems, Tiangong University"
   company_url = ""
   location = "Tianjin, China"
