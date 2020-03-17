@@ -42,7 +42,21 @@ date_format = "Jan 2006"
   This experience mainly includes:
   
   * Advised by Prof. [Rize Jin](https://scholar.google.com/citations?user=pDJfVZcAAAAJ&hl=en) and Dr. [Weitao Yuan](https://www.researchgate.net/profile/Weitao_Yuan), I mastered Deep Learning based method for Audio Processing, especially in Music Information Retrieval;
-  * Learning some basic knowledge about signal processing, such as Short-time Fourier transform (STFT), GMM-HMM and MFCC, etc.
+  * Learning some basic knowledge about signal processing, such as Short-time Fourier transform (STFT), GMM-HMM, Fbank and MFCC, etc.
+  """
+  
+[[experience]]
+  title = "Research Intern"
+  company = "Language Intelligence Team, Speech Lab, Samsung Research Institute China (SRC-B)"
+  company_url = ""
+  location = "Tianjin, China"
+  date_start = "2020-01-01"
+  date_end = "2020-03-15"
+  description = """
+  This experience mainly includes:
+  
+  * Working with researchers from Samsung Speech Lab, I built a noise reduction system, which prepared to use as the front-end of intelligent devices;
+  * First we input the speaker utterance to get the speaker embedding, then we can input it together with the mixed utterance to the noise reduction system. With this system, we can get the clean utterance under the surrounding noise like songs, accompaniments, and other speakers' voice.
   """
 
 +++
