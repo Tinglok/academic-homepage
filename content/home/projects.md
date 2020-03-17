@@ -75,5 +75,5 @@ subtitle = ""
  css_class = ""
 +++
 
-- **Aug. 2019 - Oct. 2019:** We used [the network structure we proposed](https://arxiv.org/pdf/1909.05746v3.pdf) to separate vocals and accompaniments in musical signals for Singer Recognition system, so that when different people sing the same song, the number of singers can be roughly identified. Now this technique has been adopted by [Tencent Inc.](https://www.tencent.com/en-us/about.html), and the news can be found at [here](https://mp.weixin.qq.com/s/GhIJxku4MtCP3S2B5apwSg).
+- **Aug. 2019 - Oct. 2019:** We used the separation system to separate vocals and accompaniments in musical signals for Singer Recognition system, so that when different people sing the same song, the number of singers can be roughly identified. Now this technique has been adopted by [Tencent Inc.](https://www.tencent.com/en-us/about.html), and the news can be found at [here](https://mp.weixin.qq.com/s/GhIJxku4MtCP3S2B5apwSg).
 - **Nov. 2018 - May. 2019:** I worked on a project called "Deep-Learning-Based Psychological Measurement System for College Students”, and our team won the national first prize (7.8% of all) in Baidu Inc. Proposition Competition topic in [China Students Service Outsourcing Innovation and Entrepreneurship Competition](http://www.fwwb.org.cn/). 
