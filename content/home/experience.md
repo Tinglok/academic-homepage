@@ -47,7 +47,7 @@ date_format = "Jan 2006"
   
 [[experience]]
   title = "Research Intern"
-  company = "Language Intelligence Team, Speech Lab, Samsung Research Institute China (SRC-B)"
+  company = "Speech Lab, Samsung Research Institute China (SRC-B)"
   company_url = ""
   location = "Tianjin, China"
   date_start = "2020-01-01"
