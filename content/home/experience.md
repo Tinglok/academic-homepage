@@ -56,7 +56,8 @@ date_format = "Jan 2006"
   This experience mainly includes:
   
   * Working with researchers from Samsung Speech Lab, I built a noise reduction system, which prepared to use as the front-end of intelligent devices;
-  * First we input the speaker utterance to get the speaker embedding, then we can input it together with the mixed utterance to the noise reduction system. With this system, we can get the clean utterance under the surrounding noise like songs, accompaniments, and other speakers' voice.
+  * First we input the speaker utterance to get the speaker embedding, then we can input it together with the mixed utterance to the noise reduction system.
+  * With this system, we can get the clean utterance under the surrounding noise like songs, accompaniments, and other speakers' voice.
   """
 
 +++
