@@ -15,7 +15,7 @@ role: Undergraduate Student
 # Organizations/Affiliations
 organizations:
 - name: Tiangong University
-  url: "http://www.tiangong.edu.cn/"
+  url: "http://en.tiangong.edu.cn/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests mainly focus on speech front-end processing, including but not limiting to separation, enhancement and reverberation.
