@@ -3,21 +3,22 @@
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <title>Time-domain Speaker Extraction Network</title>
-  <link rel="stylesheet" type="text/css" href="http://xuchenglin28.github.io/files/asru2019/resources/stylesheet.css">
+  <title>Atss-Net: Target Speaker Separation via Attention-based Neural Network</title>
+  <link rel="stylesheet" type="text/css" href="https://tinglok.netlify.com/files/interspeech2020/resources/stylesheet.css">
 </head>
 
 <body>
   <div style="margin-right: auto;margin-left: auto; margin-top: 30px; margin-bottom: 100px; width: 70%;">
     <div style="text-align: center;">
-      <h1>Time-domain Speaker Extraction Network (TseNet)</h1>
+      <h1>Atss-Net: Target Speaker Separation via Attention-based Neural Network</h1>
     </div>
 
-    <p><b>ASRU2019:</b>
-      This webpage is to show some listening examples for the proposed TseNet method and other frequency-domain methods. The propose TseNet method can solve the inaccuracy phase estimation problem existed in frequency-domain methods. It also doesn't need the prior information of the number of speakers in the mixture, which is necessary in most source separation methods. As the number of speaker in the mixture is always unknown in real application. With the speaker characteristics, the proposed TseNet is practical to the real application where only the registered speaker is needed to be responded, such as, speaker verification where the target speaker is alway registered in advance, speech recognition for person devices.
+    <p> 
+      <!-- <b>Interspeech2020:</b> -->
+      This webpage is to show some listening examples for our Atss-Net method and the baseline VoiceFilter. It allows the network computing the correlation between each feature parallelly and automatically, and using shallower layers to extract more features, compared with pure CNNs and LSTMs methods. We also provide some real recording samples to prove Atss-Net can achieve good joint speech enhancement and separation performance.
     </p>
 
-    <h2>Audio samples from our simulated testing set for two speakers' mixture</h2>
+    <h2>Audio samples from the test set for two speakers' mixture</h2>
     <p></p>
     <p></p>
 	<h3> Type: </h3>
@@ -31,16 +32,12 @@
         <tr>
           <th>Type</th>
           <th>Mixture Input</th>
-          <th>SBF-IBM<sup>[1]</sup></th>
-          <th>SBF-MSAL<sup>[1]</sup></th>
-          <th>SBF-MTSAL<sup>[2]</sup></th>
-          <th>SBF-MTSAL-Concat<sup>[2]</sup></th>
-		  <th>Proposed TseNet</th>
+          <th>VoiceFilter<sup>[1]</sup></th>
+          <th>Proposed Atss-Net</th>
           <th>Target Speech</th>
         </tr>
       </thead>
       <tbody>
-        <tr style="border-top:1px solid black">
 		  <td> F-F</td>
           <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
               <source src="http://xuchenglin28.github.io/files/asru2019/demo_examples/mixture/053o020o_1.6913_445o030b_-1.6913_053o020n.wav"
@@ -54,17 +51,8 @@
           <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
               <source src="http://xuchenglin28.github.io/files/asru2019/demo_examples/SBF-MTSAL/053o020o_1.6913_445o030b_-1.6913_053o020n.wav"
                 type="audio/wav"></audio></td>
-          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-              <source src="http://xuchenglin28.github.io/files/asru2019/demo_examples/SBF-MTSAL-Concat/053o020o_1.6913_445o030b_-1.6913_053o020n.wav"
-                type="audio/wav"></audio></td>
-          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-              <source src="http://xuchenglin28.github.io/files/asru2019/demo_examples/TseNet/053o020o_1.6913_445o030b_-1.6913_053o020n.wav"
-                type="audio/wav"></audio></td>
-		  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-              <source src="http://xuchenglin28.github.io/files/asru2019/demo_examples/reference/053o020o_1.6913_445o030b_-1.6913_053o020n.wav"
-                type="audio/wav"></audio></td>
         </tr>
-        <tr style="border-top:1px solid black">
+
 		  <td> M-M</td>
           <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
               <source src="http://xuchenglin28.github.io/files/asru2019/demo_examples/mixture/22hc0109_1.9352_052c0108_-1.9352_22ho010i.wav"
@@ -78,17 +66,8 @@
           <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
               <source src="http://xuchenglin28.github.io/files/asru2019/demo_examples/SBF-MTSAL/22hc0109_1.9352_052c0108_-1.9352_22ho010i.wav"
                 type="audio/wav"></audio></td>
-          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-              <source src="http://xuchenglin28.github.io/files/asru2019/demo_examples/SBF-MTSAL-Concat/22hc0109_1.9352_052c0108_-1.9352_22ho010i.wav"
-                type="audio/wav"></audio></td>
-          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-              <source src="http://xuchenglin28.github.io/files/asru2019/demo_examples/TseNet/22hc0109_1.9352_052c0108_-1.9352_22ho010i.wav"
-                type="audio/wav"></audio></td>
-		  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-              <source src="http://xuchenglin28.github.io/files/asru2019/demo_examples/reference/22hc0109_1.9352_052c0108_-1.9352_22ho010i.wav"
-                type="audio/wav"></audio></td>
         </tr>
-        <tr style="border-top:1px solid black">
+
 		  <td> M-F</td>
           <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
               <source src="http://xuchenglin28.github.io/files/asru2019/demo_examples/mixture/050a0504_2.4414_443o0313_-2.4414_050o020g.wav"
@@ -102,17 +81,8 @@
           <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
               <source src="http://xuchenglin28.github.io/files/asru2019/demo_examples/SBF-MTSAL/050a0504_2.4414_443o0313_-2.4414_050o020g.wav"
                 type="audio/wav"></audio></td>
-          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-              <source src="http://xuchenglin28.github.io/files/asru2019/demo_examples/SBF-MTSAL-Concat/050a0504_2.4414_443o0313_-2.4414_050o020g.wav"
-                type="audio/wav"></audio></td>
-          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-              <source src="http://xuchenglin28.github.io/files/asru2019/demo_examples/TseNet/050a0504_2.4414_443o0313_-2.4414_050o020g.wav"
-                type="audio/wav"></audio></td>
-		  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-              <source src="http://xuchenglin28.github.io/files/asru2019/demo_examples/reference/050a0504_2.4414_443o0313_-2.4414_050o020g.wav"
-                type="audio/wav"></audio></td>
         </tr>
-        <tr style="border-top:1px solid black">
+
 		  <td> M-F</td>
           <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
               <source src="http://xuchenglin28.github.io/files/asru2019/demo_examples/mixture/051a0505_0.54979_442c020k_-0.54979_051o020p.wav"
@@ -126,17 +96,8 @@
           <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
               <source src="http://xuchenglin28.github.io/files/asru2019/demo_examples/SBF-MTSAL/051a0505_0.54979_442c020k_-0.54979_051o020p.wav"
                 type="audio/wav"></audio></td>
-          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-              <source src="http://xuchenglin28.github.io/files/asru2019/demo_examples/SBF-MTSAL-Concat/051a0505_0.54979_442c020k_-0.54979_051o020p.wav"
-                type="audio/wav"></audio></td>
-          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-              <source src="http://xuchenglin28.github.io/files/asru2019/demo_examples/TseNet/051a0505_0.54979_442c020k_-0.54979_051o020p.wav"
-                type="audio/wav"></audio></td>
-		  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-              <source src="http://xuchenglin28.github.io/files/asru2019/demo_examples/reference/051a0505_0.54979_442c020k_-0.54979_051o020p.wav"
-                type="audio/wav"></audio></td>
         </tr>
-        <tr style="border-top:1px solid black">
+
 		  <td> M-F</td>
           <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
               <source src="http://xuchenglin28.github.io/files/asru2019/demo_examples/mixture/22gc010l_1.9598_420a010h_-1.9598_22go0114.wav"
@@ -150,23 +111,13 @@
           <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
               <source src="http://xuchenglin28.github.io/files/asru2019/demo_examples/SBF-MTSAL/22gc010l_1.9598_420a010h_-1.9598_22go0114.wav"
                 type="audio/wav"></audio></td>
-          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-              <source src="http://xuchenglin28.github.io/files/asru2019/demo_examples/SBF-MTSAL-Concat/22gc010l_1.9598_420a010h_-1.9598_22go0114.wav"
-                type="audio/wav"></audio></td>
-          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-              <source src="http://xuchenglin28.github.io/files/asru2019/demo_examples/TseNet/22gc010l_1.9598_420a010h_-1.9598_22go0114.wav"
-                type="audio/wav"></audio></td>
-		  <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
-              <source src="http://xuchenglin28.github.io/files/asru2019/demo_examples/reference/22gc010l_1.9598_420a010h_-1.9598_22go0114.wav"
-                type="audio/wav"></audio></td>
         </tr>
       </tbody>
     </table>
 
     <h2>Reference</h2>
     <p></p>
-    <p>[1]. M. Delcroix,  K. Zmolikova,  K. Kinoshita,  A. Ogawa, and T. Nakatani, “Single channel target speaker extraction and recognition with speaker beam,” in Proc. of ICASSP. IEEE, 2018, pp. 5554–5558.</p>
-    <p>[2]. C. Xu, W. Rao, E. S. Chng, and H. Li, “Optimization of speaker extraction neural network with magnitudeand temporal spectrum approximation loss,” in Proc. of ICASSP. IEEE, 2019, pp. 6990–6994.</p>
+    <p>[1] Q. Wang, H. Muckenhirn, K. Wilson, et al. VoiceFilter: Targeted voice separation by speaker-conditioned spectrogram masking. arXiv preprint arXiv:1810.04826, 2018.</p>
   </div>
 
 </body>
