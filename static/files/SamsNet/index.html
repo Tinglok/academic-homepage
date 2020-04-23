@@ -1,0 +1,242 @@
+
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Sams-Net: A Sliced Attention-based Neural Network for Music Source Separation</title>
+  <link rel="stylesheet" type="text/css" href="https://tinglok.netlify.com/files/interspeech2020/resources/stylesheet.css">
+</head>
+
+<body>
+  <div style="margin-right: auto;margin-left: auto; margin-top: 30px; margin-bottom: 100px; width: 70%;">
+    <div style="text-align: center;">
+      <h1>Sams-Net: A Sliced Attention-based Neural Network for Music Source Separation</h1>
+    </div>
+
+    <p> 
+      <!-- <b>Interspeech2020:</b> -->
+      This webpage is to show some listening examples for our Sams-Net method and the baseline Open-Unmix<sup>[1]</sup>. It enables different contributions of feature interactions, achieves easier parallel computing and has a larger receptive field compared with LSTMs and CNNs respectively. Experiments show that the proposed framework outperforms most of the state-of-the-art DNN-based methods with fewer parameters.
+    </p>
+
+    <h2>Audio samples from the test set for two speakers' mixture</h2>
+    <p></p>
+    <p></p>
+	<h3> Type: </h3>
+	<ol>
+	    <li>A-R: Adele - Rolling in the Deep </li>
+		<li>C-Y: Carpenter - Yesterday Once More </li>
+		<li>S-J: Sarah Connor - Just One Last Dance </li>
+    <li>T-S: The Walkers - Sha-La-La-La-La </li>
+    <li>J-T: Jascha Richter - Take Me To Your Heart </li>
+    <li>T-E: The Chainsmokers - Everybody Hates Me </li>
+	</ol>
+    <table>
+      <thead>
+        <tr>
+          <th>Type</th>
+          <td>A-R</td>
+          <td>C-Y</td>
+          <td>S-J</td>
+          <td>T-S</th>
+          <td>J-T</td>
+          <td>T-E</td>
+        </tr>
+      </thead>
+      <tbody>
+		  <th>Mixture Input</th>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/SamsNet/demo_examples/mixture/A-R.wav"
+                type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/SamsNet/demo_examples/mixture/C-Y.wav"
+                type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/SamsNet/demo_examples/mixture/S-J.wav"
+                type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/SamsNet/demo_examples/mixture/T-S.wav"
+                type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/SamsNet/demo_examples/mixture/J-T.wav"
+                type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/SamsNet/demo_examples/mixture/T-E.wav"
+                type="audio/wav"></audio></td>
+        </tr>
+      <tr style="border-top:1px solid black">
+		  <th>SamsNet:Vocals</th>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/SamsNet/demo_examples/A-R_Sams-Net/vocals.wav"
+                type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/SamsNet/demo_examples/C-Y_Sams-Net/vocals.wav"
+                type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/SamsNet/demo_examples/S-J_Sams-Net/vocals.wav"
+                type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/SamsNet/demo_examples/T-S_Sams-Net/vocals.wav"
+                type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/SamsNet/demo_examples/J-T_Sams-Net/vocals.wav"
+                type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/SamsNet/demo_examples/T-E_Sams-Net/vocals.wav"
+                type="audio/wav"></audio></td>
+        </tr>
+
+		  <th>SamsNet:Drums</th>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/SamsNet/demo_examples/A-R_Sams-Net/drums.wav"
+                type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/SamsNet/demo_examples/C-Y_Sams-Net/drums.wav"
+                type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/SamsNet/demo_examples/S-J_Sams-Net/drums.wav"
+                type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/SamsNet/demo_examples/T-S_Sams-Net/drums.wav"
+                type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/SamsNet/demo_examples/J-T_Sams-Net/drums.wav"
+                type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/SamsNet/demo_examples/T-E_Sams-Net/drums.wav"
+                type="audio/wav"></audio></td>
+        </tr>
+
+		  <th>SamsNet:Bass</th>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/SamsNet/demo_examples/A-R_Sams-Net/bass.wav"
+                type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/SamsNet/demo_examples/C-Y_Sams-Net/bass.wav"
+                type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/SamsNet/demo_examples/S-J_Sams-Net/bass.wav"
+                type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/SamsNet/demo_examples/T-S_Sams-Net/bass.wav"
+                type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/SamsNet/demo_examples/J-T_Sams-Net/bass.wav"
+                type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/SamsNet/demo_examples/T-E_Sams-Net/bass.wav"
+                type="audio/wav"></audio></td>
+        </tr>
+
+		  <th>SamsNet:Other</th>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/SamsNet/demo_examples/A-R_Sams-Net/other.wav"
+                type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/SamsNet/demo_examples/C-Y_Sams-Net/other.wav"
+                type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/SamsNet/demo_examples/S-J_Sams-Net/other.wav"
+                type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/SamsNet/demo_examples/T-S_Sams-Net/other.wav"
+                type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/SamsNet/demo_examples/J-T_Sams-Net/other.wav"
+                type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/SamsNet/demo_examples/T-E_Sams-Net/other.wav"
+                type="audio/wav"></audio></td>
+        </tr>
+        <tr style="border-top:1px solid black">
+        <th>OpenUnmix:Vocals</th>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/interspeech2020/demo_examples/mixture/4570-102353-0008-mix.wav"
+                type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/interspeech2020/demo_examples/baseline/4570-102353-0008-est.wav"
+                type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/interspeech2020/demo_examples/proposed/4570-102353-0008-est.wav"
+                type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/interspeech2020/demo_examples/target/4570-102353-0008-tar.wav"
+                type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/interspeech2020/demo_examples/mixture/7976-105575-0007-mix.wav"
+                type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/interspeech2020/demo_examples/baseline/7976-105575-0007-est.wav"
+                type="audio/wav"></audio></td>
+        </tr>
+        <th>OpenUnmix:Bass</th>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/interspeech2020/demo_examples/mixture/4570-102353-0008-mix.wav"
+                type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/interspeech2020/demo_examples/baseline/4570-102353-0008-est.wav"
+                type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/interspeech2020/demo_examples/proposed/4570-102353-0008-est.wav"
+                type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/interspeech2020/demo_examples/target/4570-102353-0008-tar.wav"
+                type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/interspeech2020/demo_examples/mixture/7976-105575-0007-mix.wav"
+                type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/interspeech2020/demo_examples/baseline/7976-105575-0007-est.wav"
+                type="audio/wav"></audio></td>
+        </tr>
+        <th>OpenUnmix:Drums</th>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/interspeech2020/demo_examples/mixture/4570-102353-0008-mix.wav"
+                type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/interspeech2020/demo_examples/baseline/4570-102353-0008-est.wav"
+                type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/interspeech2020/demo_examples/proposed/4570-102353-0008-est.wav"
+                type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/interspeech2020/demo_examples/target/4570-102353-0008-tar.wav"
+                type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/interspeech2020/demo_examples/mixture/7976-105575-0007-mix.wav"
+                type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/interspeech2020/demo_examples/baseline/7976-105575-0007-est.wav"
+                type="audio/wav"></audio></td>
+        </tr>
+        <th>OpenUnmix:Other</th>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/interspeech2020/demo_examples/mixture/4570-102353-0008-mix.wav"
+                type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/interspeech2020/demo_examples/baseline/4570-102353-0008-est.wav"
+                type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/interspeech2020/demo_examples/proposed/4570-102353-0008-est.wav"
+                type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/interspeech2020/demo_examples/target/4570-102353-0008-tar.wav"
+                type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/interspeech2020/demo_examples/proposed/4570-102353-0008-est.wav"
+                type="audio/wav"></audio></td>
+          <td><audio controls class="audio-player" preload="metadata" style="width: 180px;">
+              <source src="https://tinglok.netlify.com/files/interspeech2020/demo_examples/target/4570-102353-0008-tar.wav"
+                type="audio/wav"></audio></td>
+
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Reference</h2>
+    <p></p>
+    <p>[1] F.-R. Stoter, S. Uhlich, A. Liutkus, and Y. Mitsufuji, "Open-unmix-a reference implementation for music source separation," Journal of Open Source Software, 2019.</p>
+  </div>
+
+</body>
+
+</html>
