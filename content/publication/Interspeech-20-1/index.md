@@ -1,6 +1,6 @@
 ---
 title: "Atss-Net: Target Speaker Separation via Attention-based Neural Network"
-date: 2019-04-15
+date: 2020-04-15
 publishDate: 2020-04-15T13:59:10.998650Z
 authors: ["**Tingle Li**", "Qingjian Lin", "Yuanyuan Bao", "Ming Li"]
 publication_types: ["3"]
