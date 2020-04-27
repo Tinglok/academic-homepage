@@ -11,6 +11,6 @@ links:
   - icon_pack: ai
     icon: arxiv
     name: Preprint
-    url: 'https://arxiv.org/abs/1909.05746v3'
+    url: 'https://arxiv.org/abs/1909.05746'
 ---
 
