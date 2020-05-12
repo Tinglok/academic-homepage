@@ -63,4 +63,3 @@ I am currently an undergraduate student in School of Computer Science and Techno
 
 My research interests mainly focus on speech front-end processing, including but not limiting to separation, enhancement and reverberation. 
 
-In my spare time, I like to work out in gyms, which has been my habit for 7 years.
