@@ -11,9 +11,6 @@ links:
   - icon_pack: ai
     icon: arxiv
     name: Preprint
-  - icon_pack: ai
-    icon: arxiv
-    name: Preprint
     url: 'https://arxiv.org/abs/2005.09200'
   - icon_pack: ai
     icon: arxiv
