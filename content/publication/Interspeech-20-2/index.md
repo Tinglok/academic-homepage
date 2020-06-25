@@ -1,6 +1,6 @@
 ---
 title: "The DKU Speech Activity Detection and Speaker Identification Systems for Fearless Steps Challenge Phase-02"
-date: 2019-04-15
+date: 2020-04-25
 publishDate: 2020-04-25T13:59:10.998650Z
 authors: ["Qingjian Lin", "**Tingle Li**", "Ming Li"]
 publication_types: ["3"]
