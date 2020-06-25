@@ -1,6 +1,6 @@
 ---
 title: "Sams-Net: A Sliced Attention-based Neural Network for Music Source Separation"
-date: 2019-03-06
+date: 2020-03-06
 publishDate: 2019-10-15T13:59:10.998650Z
 authors: ["**Tingle Li**", "Jiawei Chen", "Haowen Hou", "Ming Li"]
 publication_types: ["3"]
