@@ -61,5 +61,5 @@ user_groups:
 
 I am currently an undergraduate student in School of Computer Science and Technology, [Tiangong University](http://en.tiangong.edu.cn/) (Honors Program of Artificial Intelligence). Also, since Summer 2019, I am a research intern in [Speech and Multimodal Intelligent Information Processing (SMIIP) Lab](https://sites.duke.edu/dkusmiip/), [Duke Kunshan University](https://dukekunshan.edu.cn/en), advised by Prof. [Ming Li](https://scholars.duke.edu/person/MingLi).
 
-My research interests mainly focus on speech front-end processing, including but not limiting to separation, enhancement and reverberation. 
+My research interests mainly focus on speech front-end processing, including but not limited to separation, enhancement and reverberation. 
 
