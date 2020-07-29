@@ -17,13 +17,23 @@ date_format = "Jan 2006"
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
+
+[[experience]]
+  title = "Post-bachelor Researcher"
+  company = "Institute for Interdisciplinary Information Sciences, Tsinghua University"
+  company_url = ""
+  location = "Beijing, China"
+  date_start = "2020-07-15"
+  date_end = ""
+  description = """"""
+  
 [[experience]]
   title = "Research Intern"
   company = "SMIIP Lab, Duke Kunshan University"
   company_url = ""
   location = "Suzhou, China"
   date_start = "2019-07-01"
-  date_end = ""
+  date_end = "2020-07-01"
   description = """"""
   # This experience mainly includes:
   
