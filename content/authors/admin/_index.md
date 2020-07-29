@@ -10,15 +10,15 @@ authors:
 superuser: true
 
 # Role/position
-role: Undergraduate Student
+role: Research Assistant
 
 # Organizations/Affiliations
 organizations:
-- name: Tiangong University
-  url: "http://en.tiangong.edu.cn/"
+- name: Tsinghua University
+  url: "https://www.tsinghua.edu.cn/en/index.htm"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests mainly focus on speech front-end processing, including but not limiting to separation, enhancement and reverberation.
+bio: My research interests mainly focus on speech front-end processing, including but not limited to separation, enhancement and reverberation.
 
 interests:
 - Source Separation
@@ -30,7 +30,7 @@ education:
   courses:
   - course: B.E. in Computer Science
     institution: Tiangong University
-    year: 2016 - Present
+    year: Sep. 2016 - Jun. 2020
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -59,7 +59,8 @@ user_groups:
 - Visitors
 ---
 
-I am currently an undergraduate student in School of Computer Science and Technology, [Tiangong University](http://en.tiangong.edu.cn/) (Honors Program of Artificial Intelligence). Also, since Summer 2019, I am a research intern in [Speech and Multimodal Intelligent Information Processing (SMIIP) Lab](https://sites.duke.edu/dkusmiip/), [Duke Kunshan University](https://dukekunshan.edu.cn/en), advised by Prof. [Ming Li](https://scholars.duke.edu/person/MingLi).
+I am currently a post-bachelor researcher in [Institute for Interdisciplinary Information Sciences](https://iiis.tsinghua.edu.cn/en/), Tsinghua University. My advisor is Prof. [Hang Zhao](http://people.csail.mit.edu/hangzhao/).
 
-My research interests mainly focus on speech front-end processing, including but not limited to separation, enhancement and reverberation. 
+I obtained my B.E. from the School of Computer Science and Technology, Tiangong University. I spent an unforgettable year in 2019 working in Speech and Multimodal Intelligent Information Processing (SMIIP) Lab, [Duke Kunshan University](https://dukekunshan.edu.cn/en), advised by Prof. [Ming Li](https://scholars.duke.edu/person/MingLi). 
 
+My research interests mainly focus on speech front-end processing, including but not limited to separation, enhancement and reverberation. Rignt now I am engaging in research about multimodal interaction.
