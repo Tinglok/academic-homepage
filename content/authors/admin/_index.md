@@ -30,7 +30,7 @@ education:
   courses:
   - course: B.E. in Computer Science
     institution: Tiangong University
-    year: Sep. 2016 - Jun. 2020
+    year: 2016 - 2020
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
