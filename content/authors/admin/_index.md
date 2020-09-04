@@ -63,4 +63,4 @@ I am currently a post-bachelor researcher in [Institute for Interdisciplinary In
 
 I obtained my B.E. from [Tiangong University](http://en.tiangong.edu.cn/). During my undergraduate study, I spent an unforgettable year working in Speech and Multimodal Intelligent Information Processing (SMIIP) Lab, [Duke Kunshan University](https://dukekunshan.edu.cn/en), advised by Prof. [Ming Li](https://scholars.duke.edu/person/MingLi). 
 
-My research interests mainly focus on speech front-end processing, including but not limited to separation, enhancement and reverberation. Rignt now I am engaging in research about multimodal interaction.
+My research interests mainly focus on speech front-end processing, including but not limited to separation, enhancement and reverberation. Rignt now I am engaging in audio-visual learning.
