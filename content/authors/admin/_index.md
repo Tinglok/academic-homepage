@@ -22,8 +22,8 @@ bio: My research interests mainly focus on speech front-end processing, includin
 
 interests:
 - Source Separation
-- Speech Enhancement
 - Music Information Retrieval
+- Audio-Visual Interaction
 - Multimodal Learning
 
 education:
