@@ -16,6 +16,9 @@ links:
     icon: arxiv
     name: Demo
     url: 'https://tinglok.netlify.app/files/interspeech2020/'
-
+  - icon_pack: ai
+    icon: arxiv
+    name: Video
+    url: 'https://drive.google.com/file/d/1IjA2jNUXmqRuoszPox_lziCcrHMeqXbA/view'
 ---
 
