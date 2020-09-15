@@ -9,7 +9,7 @@ publication: "*Speaker Odyssey*, Tokyo, Japan, November 2020"
 links:
   - icon_pack: ai
     icon: arxiv
-    name: Paper
+    name: PDF
     url: 'https://www.isca-speech.org/archive/Odyssey_2020/pdfs/17.pdf'
 ---
 
