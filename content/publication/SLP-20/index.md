@@ -9,7 +9,7 @@ publication: "*ISCSLP*, Hong Kong, China, January 2021"
 links:
   - icon_pack: ai
     icon: arxiv
-    name: Preprint
+    name: PDF
     url: 'https://arxiv.org/abs/1909.05746'
   - icon_pack: ai
     icon: arxiv
