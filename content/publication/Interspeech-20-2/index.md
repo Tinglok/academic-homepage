@@ -9,7 +9,7 @@ publication: "*INTERSPEECH*, Shanghai, China, October 2020"
 links:
   - icon_pack: ai
     icon: arxiv
-    name: Preprint
-    url: "https://www.researchgate.net/publication/343488849_The_DKU_Speech_Activity_Detection_and_Speaker_Identification_Systems_for_Fearless_Steps_Challenge_Phase-02"
+    name: PDF
+    url: "https://isca-speech.org/archive/Interspeech_2020/abstracts/1915.html"
 ---
 
