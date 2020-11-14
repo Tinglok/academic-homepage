@@ -8,8 +8,8 @@ publication: "*INTERSPEECH*, Shanghai, China, October 2020"
 links:
   - icon_pack: ai
     icon: arxiv
-    name: Preprint
-    url: 'https://arxiv.org/abs/2005.09200'
+    name: PDF
+    url: 'https://isca-speech.org/archive/Interspeech_2020/abstracts/1436.html'
   - icon_pack: ai
     icon: arxiv
     name: Demo
