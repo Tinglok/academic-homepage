@@ -89,11 +89,11 @@ email = "tingle.li@outlook.com"
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "Duke Kunshan University", city = "Kunshan", region = "Jiangsu", postcode = "215300", country = "China", country_code = "CN"}
+address = {street = "Tsinghua University", city = "Beijing", region = "", postcode = "100036", country = "China", country_code = "CN"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-coordinates = {latitude = "31.41743", longitude = "120.89323"}
+coordinates = {latitude = "40.0023", longitude = "116.3211"}
 
 # Directions for visitors to locate you.
 # directions = "Enter Building 1 and take the stairs to Office 200 on Floor 2"
