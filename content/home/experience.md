@@ -55,14 +55,14 @@ date_format = "Jan 2006"
   # * Learning some basic knowledge about signal processing, such as Short-time Fourier transform (STFT), GMM-HMM, Fbank and MFCC, etc.
   
   
-# [[experience]]
-  # title = "Research Intern"
-  # company = "Speech Lab, Samsung Research Institute China (SRC-B)"
-  # company_url = ""
-  # location = "Beijing, China"
-  # date_start = "2020-01-01"
-  # date_end = "2020-03-15"
-  # description = """
+[[experience]]
+  title = "Research Intern"
+  company = "Speech Lab, Samsung Research Institute China"
+  company_url = ""
+  location = "Beijing, China (WFH)"
+  date_start = "2020-01-01"
+  date_end = "2020-03-15"
+  description = """"""
   # This experience mainly includes:
   
   # * Working with researchers from Samsung Speech Lab, I built a noise reduction system, which prepared to use as the front-end of intelligent devices;
