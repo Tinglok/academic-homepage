@@ -63,4 +63,4 @@ I am currently a post-bachelor researcher (a research-oriented program during CO
 
 I obtained my B.E. from [Tiangong University](http://en.tiangong.edu.cn/). During my undergraduate study, I spent an unforgettable year working in Speech and Multimodal Intelligent Information Processing (SMIIP) Lab, [Duke Kunshan University](https://dukekunshan.edu.cn/en), advised by Prof. [Ming Li](https://scholars.duke.edu/person/MingLi). 
 
-My research interest mainly focuses on representation learning, using unlabeled, weakly-labeled, partially-labeled, and multimodal (audio-visual) data. It can facilitate numerous common downstream tasks, such as robust speech recognition, speech separation, multi-speaker speech synthesis, speaker verification, action recognition, etc.
+My research interest mainly focuses on speech representation learning, using unlabeled, weakly-labeled, partially-labeled, and multimodal (audio-visual) data.
