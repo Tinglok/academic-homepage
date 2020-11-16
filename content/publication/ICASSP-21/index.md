@@ -6,17 +6,11 @@ publication_types: ["3"]
 abstract: "Cycle consistent generative adversarial network (CycleGAN) and variational autoencoder (VAE) based models have gained popularity in non-parallel voice conversion recently. However, they usually suffer from difficulty in model training and unsatisfactory results. In this paper, we propose CVC, a contrastive learning-based adversarial model for voice conversion. Compared to previous methods, CVC only requires one-way GAN training when it comes to non-parallel one-to-one voice conversion, while improving speech quality and reducing training time. CVC further demonstrates performance improvements in many-to-one voice conversion, enabling the conversion from unseen speakers."
 publication: "Submitted to ICASSP 2021"
 links:
-  - icon_pack: ai
-    icon: arxiv
-    name: PDF
+  - name: PDF
     url: 'https://arxiv.org/pdf/2011.00782.pdf'
-  - icon_pack: ai
-    icon: arxiv
-    name: Demo
+  - name: Demo
     url: 'https://tinglok.netlify.app/files/cvc'
-  - icon_pack: ai
-    icon: arxiv
-    name: Code
+  - name: Code
     url: 'https://github.com/Tinglok/CVC'
 ---
 
