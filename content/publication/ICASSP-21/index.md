@@ -14,5 +14,9 @@ links:
     icon: arxiv
     name: Demo
     url: 'https://tinglok.netlify.app/files/cvc'
+  - icon_pack: ai
+    icon: arxiv
+    name: Code
+    url: 'https://github.com/Tinglok/CVC'
 ---
 
