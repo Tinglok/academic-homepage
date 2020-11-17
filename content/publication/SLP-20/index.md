@@ -8,7 +8,7 @@ abstract: "Convolutional Neural Network (CNN) or Long short-term memory (LSTM) b
 publication: "*ISCSLP*, Hong Kong, China, January 2021"
 links:
   - name: PDF
-    url: 'https://arxiv.org/abs/1909.05746'
+    url: 'https://arxiv.org/pdf/1909.05746.pdf'
   - name: Demo
     url: 'https://tinglok.netlify.app/files/samsnet/'
 ---
