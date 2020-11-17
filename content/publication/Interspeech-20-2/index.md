@@ -8,6 +8,6 @@ abstract: "This paper describes the systems developed by the DKU team for the Fe
 publication: "*INTERSPEECH*, Shanghai, China, October 2020"
 links:
   - name: PDF
-    url: "https://isca-speech.org/archive/Interspeech_2020/abstracts/1915.html"
+    url: "https://isca-speech.org/archive/Interspeech_2020/pdfs/1915.pdf"
 ---
 
