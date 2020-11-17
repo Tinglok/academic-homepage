@@ -4,6 +4,7 @@ date: 2020-04-15
 authors: ["**Tingle Li**", "Qingjian Lin", "Yuanyuan Bao", "Ming Li"]
 publication_types: ["1"]
 publication: "*INTERSPEECH*, Shanghai, China, October 2020"
+abstract: "*INTERSPEECH*, Shanghai, China, October 2020"
 links:
   - name: PDF
     url: 'https://isca-speech.org/archive/Interspeech_2020/pdfs/1436.pdf'
