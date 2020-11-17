@@ -7,7 +7,7 @@ abstract: "Recently, Convolutional Neural Network (CNN) and Long short-term memo
 publication: "*INTERSPEECH*, Shanghai, China, October 2020"
 links:
   - name: PDF
-    url: 'https://isca-speech.org/archive/Interspeech_2020/abstracts/1436.html'
+    url: 'https://isca-speech.org/archive/Interspeech_2020/pdfs/1436.pdf'
   - name: Demo
     url: 'https://tinglok.netlify.app/files/interspeech2020/'
   - name: Video
