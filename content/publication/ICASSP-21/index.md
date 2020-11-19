@@ -4,6 +4,7 @@ date: 2020-10-21
 authors: ["**Tingle Li**", "Yichen Liu", "Chenxu Hu", "Hang Zhao"]
 publication_types: ["3"]
 publication: "Submitted to ICASSP 2021"
+abstract: "Submitted to ICASSP 2021"
 links:
   - name: PDF
     url: 'https://arxiv.org/pdf/2011.00782.pdf'
