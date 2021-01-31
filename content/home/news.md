@@ -66,7 +66,6 @@ subtitle = ""
  css_class = ""
 +++
 
-- **Jul. 25, 2020:**  Two papers are accepted by INTERSPEECH 2020, please check them out!
+- **Jul. 25, 2020:**  Two papers are accepted by [INTERSPEECH 2020](http://www.interspeech2020.org/), please check them out!
 - **May. 14, 2020:**  Our DKU systems were ranked **1st** in SID and **3rd** in SAD among the world in [Fearless Steps Challenge Phase-02](https://fearless-steps.github.io/ChallengePhase2/index.html).
 - **Mar. 20, 2020:** One paper has been accepted by Speaker Odyssey 2020, which is about the loss function in End-to-End Speaker Diarization.
-- **June. 28, 2019:** I’m very happy to share that I will join the [SMIIP Lab](https://sites.duke.edu/dkusmiip/) in Duke Kunshan University as a research intern, advised by Prof. Ming Li.
