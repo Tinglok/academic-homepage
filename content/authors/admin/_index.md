@@ -59,8 +59,8 @@ user_groups:
 - Visitors
 ---
 
-I am currently a post-bachelor researcher (a research-oriented program during COVID-19) in [Institute for Interdisciplinary Information Sciences](https://iiis.tsinghua.edu.cn/en/), Tsinghua University. My advisor is Prof. [Hang Zhao](http://people.csail.mit.edu/hangzhao/).
+I am currently a research assistant (a research-oriented program during COVID-19) in [Institute for Interdisciplinary Information Sciences](https://iiis.tsinghua.edu.cn/en/), Tsinghua University, where I am fortunate to work with Prof. [Hang Zhao](http://people.csail.mit.edu/hangzhao/).
 
 I obtained my B.E. from [Tiangong University](http://en.tiangong.edu.cn/). During my undergraduate study, I spent an unforgettable year working in Speech and Multimodal Intelligent Information Processing (SMIIP) Lab, [Duke Kunshan University](https://dukekunshan.edu.cn/en), advised by Prof. [Ming Li](https://scholars.duke.edu/person/MingLi). 
 
-My research interest mainly focuses on speech representation learning, using unlabeled, weakly-labeled, partially-labeled, and multimodal (audio-visual) data.
+My primary research interests revolve around making machines that can listen. So far, my research has been on audio-visual representation learning, using unlabeled, weakly-labeled, partially-labeled data.
