@@ -19,10 +19,10 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
-  title = "Post-bachelor Researcher"
+  title = "Research Assistant"
   company = "Institute for Interdisciplinary Information Sciences, Tsinghua University"
   company_url = ""
-  location = "Beijing, China"
+  location = "Beijing & Shanghai, China"
   date_start = "2020-07-15"
   date_end = ""
   description = """"""
