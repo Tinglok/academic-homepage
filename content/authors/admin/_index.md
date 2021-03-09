@@ -63,4 +63,4 @@ I am currently a research assistant (a research-oriented program during COVID-19
 
 I obtained my B.E. from [Tiangong University](http://en.tiangong.edu.cn/). During my undergraduate study, I spent an unforgettable year working in Speech and Multimodal Intelligent Information Processing (SMIIP) Lab, [Duke Kunshan University](https://dukekunshan.edu.cn/en), advised by Prof. [Ming Li](https://scholars.duke.edu/person/MingLi). 
 
-My primary research interests revolve around making machines that can listen. To this end, I am recently engaged in audio-visual representation learning, using unlabeled, weakly-labeled, partially-labeled data.
+My past research interests revolve around making machines that can listen, but I am recently engaged in audio-visual learning, using unlabeled and weakly-labeled data.
