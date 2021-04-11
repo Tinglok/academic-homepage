@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+
     <title>Mturk Upload Interface</title>
     <style>
 
@@ -234,8 +236,14 @@
             margin:0;
             border-top-left-radius:15px ;
             border-top-right-radius: 15px;
+            position: sticky;
 
 
+
+        }
+        .actions{
+            max-height: 36em;
+            overflow: auto;
         }
         .actions{
             line-height: 2em;
@@ -249,10 +257,16 @@
         {
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         }
+        .act_choice{
+            border: 1px solid lightgray;
+            margin:10px;
+            border-radius: 10px;
+            padding:5px
+        }
+        .act_choice:hover{
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-
-
-
+        }
        /*底部区域*/
         .flex-container {
             display: flex;
@@ -428,20 +442,24 @@
 <div class="topmenu">
     <ul>
         <li class="dropdown">
-            <a  class="dropbtn" style="color:slategray">Instructions</a>
+            <a  class="dropbtn" style="color:slategray">Instructions &nbsp&nbsp</a>
                 <div class="dropdown-content">
                     <a href="#"><p>You need to use the following items to make possible common natural actions to make sounds,
-                        and photograph the process.Then use one word or sentence to describe the action.</p></a>
+                        and photograph the process.Then use one word or sentence to describe the action.</p>
+                    </a>
                     <a href="#"><p>The standard for objects to make a sound is that the sound is obvious enough and there is no background noise; the interaction between two objects has to be common in daily life.(eg. you put a ceramic cup on a wooden table✔
-                        you hit the door with a cup ×)</p></a>
+                        you hit the door with a cup ×)</p>
+                    </a>
                     <a href="#"><p>Some object pairs may not be able to interact naturally
                         and make sounds, you can skip these pairs(eg. if you are given a pair: cup and mirror,you can just skip it)</p>
-                        <a href="#"><p>We encourage you to make more daily actions on the same object-pair, make different soun
+                    </a>
+                    <a href="#"><p>We encourage you to make more daily actions on the same object-pair, make different soun
                         ds, extra rewards will be offered based on amount of the actions you can find.(eg. if you are given a pair:
-                        cup and table, you can make two possible actions :1.put the cup on the table. 2.move the cup on the table. )</p></a>
+                        cup and table, you can make two possible actions :1.put the cup on the table. 2.move the cup on the table. )</p>
+                    </a>
                 </div>
         </li>
-        <li><a href="#demo-video" style="color:slategray">Demo-Video</a></li>
+        <li><a href="#demo-video" style="color:slategray">Demo Video &nbsp&nbsp&nbsp&nbsp</a></li>
         <li><a href="#demo-video" class="next" style="color:slategray">Next</a></li>
     </ul>
 
@@ -451,19 +469,19 @@
     <div class="column sidemenu ">
 
         <ul>
-            <li class="object">Object</li>
-            <li><a  onclick="material_choose(this)">material</a></li>
-            <li><a  onclick="material_choose(this)">material</a></li>
-            <li><a  onclick="material_choose(this)">material</a></li>
-            <li><a  onclick="material_choose(this)">material</a></li>
-            <li><a  onclick="material_choose(this)">material</a></li>
-            <li><a  onclick="material_choose(this)">material</a></li>
-            <li><a  onclick="material_choose(this)">material</a></li>
-            <li><a  onclick="material_choose(this)">material</a></li>
-            <li><a  onclick="material_choose(this)">material</a></li>
-            <li><a  onclick="material_choose(this)">material</a></li>
-            <li><a  onclick="material_choose(this)">material</a></li>
-            <li><a  onclick="material_choose(this)">material</a></li>
+            <li class="object">Object 1</li>
+            <li><a  class="single_choice1" onclick="material_choose(this)">material</a></li>
+            <li><a  class="single_choice1" onclick="material_choose(this)">material</a></li>
+            <li><a  class="single_choice1" onclick="material_choose(this)">material</a></li>
+            <li><a  class="single_choice1" onclick="material_choose(this)">material</a></li>
+            <li><a  class="single_choice1" onclick="material_choose(this)">material</a></li>
+            <li><a  class="single_choice1" onclick="material_choose(this)">material</a></li>
+            <li><a  class="single_choice1" onclick="material_choose(this)">material</a></li>
+            <li><a  class="single_choice1" onclick="material_choose(this)">material</a></li>
+            <li><a  class="single_choice1" onclick="material_choose(this)">material</a></li>
+            <li><a  class="single_choice1" onclick="material_choose(this)">material</a></li>
+            <li><a  class="single_choice1" onclick="material_choose(this)">material</a></li>
+            <li><a  class="single_choice1" onclick="material_choose(this)">material</a></li>
 
         </ul>
     </div>
@@ -471,13 +489,17 @@
     <div class="column sidemenu ">
 
         <ul>
-            <li class="object">Object</li>
-            <li><a  onclick="material_choose(this)">material</a></li>
-            <li><a  onclick="material_choose(this)">material</a></li>
-            <li><a  onclick="material_choose(this)">material</a></li>
-            <li><a  onclick="material_choose(this)">material</a></li>
-            <li><a  onclick="material_choose(this)">material</a></li>
-            <li><a  onclick="material_choose(this)">material</a></li>
+            <li class="object">Object 2</li>
+            <li><a  class="single_choice2" onclick="material_choose(this)">material</a></li>
+            <li><a  class="single_choice2" onclick="material_choose(this)">material</a></li>
+            <li><a  class="single_choice2" onclick="material_choose(this)">material</a></li>
+            <li><a  class="single_choice2" onclick="material_choose(this)">material</a></li>
+            <li><a  class="single_choice2" onclick="material_choose(this)">material</a></li>
+            <li><a  class="single_choice2" onclick="material_choose(this)">material</a></li>
+            <li><a  class="single_choice2" onclick="material_choose(this)">material</a></li>
+            <li><a  class="single_choice2" onclick="material_choose(this)">material</a></li>
+            <li><a  class="single_choice2" onclick="material_choose(this)">material</a></li>
+            <li><a  class="single_choice2" onclick="material_choose(this)">material</a></li>
         </ul>
     </div>
 
@@ -485,31 +507,33 @@
 
         <div class="actions">
             <div class="header">
-                <h1>Actions</h1>
+                <h1>Candidate Actions</h1>
             </div >
-            <ol>
-                <li>Pour liquid into a container </li>
-                <li>Rub the paper with your hands </li>
-                <li>Open something(cola can, beer etc.) by hand </li>
-                <li>Close something(book,door,box etc.) by hand </li>
-                <li>knife to cut something </li>
-                <li>put something on something </li>
-                <li>move something on something </li>
-                <li>rub something with something </li>
-                <li>hit something with something </li>
-
-            </ol>
+            <div>
+                <ul>
+                    <li class="act_choice single_choice3" onclick="act_choose(this)" id="act1">Pour liquid into a container </li>
+                    <li class="act_choice single_choice3" onclick="act_choose(this)" id="act2">Rub the paper with your hands </li>
+                    <li class="act_choice single_choice3" onclick="act_choose(this)" id="act3">Open something(cola can, beer etc.) by hand </li>
+                    <li class="act_choice single_choice3" onclick="act_choose(this)" id="act4">Close something(book,door,box etc.) by hand </li>
+                    <li class="act_choice single_choice3" onclick="act_choose(this)" id="act5">knife to cut something </li>
+                    <li class="act_choice single_choice3" onclick="act_choose(this)" id="act6">put something on something </li>
+                    <li class="act_choice single_choice3" onclick="act_choose(this)" id="act7">move something on something </li>
+                    <li class="act_choice single_choice3" onclick="act_choose(this)" id="act8">rub something with something </li>
+                    <li class="act_choice single_choice3" onclick="act_choose(this)" id="act9">hit something with something </li>
+                </ul>
+            </div>
         </div>
 
         <div >
-            <div class="plus_icon" onclick="adddiv()">
-                <div>
-                    <button class="plus" style="border: 0px solid white" onclick="adddiv()"><span ><i class="fa fa-plus-square fa-5x"  ></i> </span></button>
-                </div>
-                <div class="plus_text">
-                    <p>Plus act</p>
-                </div>
-            </div>
+<!--     添加动作按钮图标      -->
+<!--            <div class="plus_icon" onclick="adddiv()">-->
+<!--                <div>-->
+<!--                    <button class="plus" style="border: 0px solid white" onclick="adddiv()"><span > </span></button>-->
+<!--                </div>-->
+<!--                <div class="plus_text">-->
+<!--                    <p>Plus act</p>-->
+<!--                </div>-->
+<!--            </div>-->
 
             <div class="act_text" id="details">
 
@@ -524,7 +548,7 @@
 
 
     <div class="contact_container">
-        <a class="contact" href="mailto:18300720002@fudan.edu.cn" style="text-align:center;text-decoration: none;color:black;margin: 0;padding:10px;border:0px solid black;border-radius: 5px; box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5), 0 1px 2px 0 rgba(0, 0, 0, 0.19);">contact mail   <span class="tooltiptext">Contact for questions</span></a>
+        <a class="contact" href="mailto:18300720002@fudan.edu.cn" style="text-align:center;text-decoration: none;color:black;margin: 0;padding:10px;border:0px solid black;border-radius: 5px; box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5), 0 1px 2px 0 rgba(0, 0, 0, 0.19);">Contact Info<span class="tooltiptext">Contact for questions</span></a>
     </div>
 </div>
 <script>
@@ -542,7 +566,7 @@
             div.innerHTML = "<div class=\"act\" onclick=\"form_click(this)\">\n" +
                 "                    <div>\n" +
                 "                        <form >\n" +
-                "                            Act <input class=\"act_input\" type=\"text\" name=\"act1\" value=\"Possible act\" float=\"left\" onclick=\"if(value==defaultValue){value='';this.style.color='#000'}\" onBlur=\"if(!value){value=defaultValue;this.style.color='#999'}\" >\n" +
+                "                            <input class=\"act_input\" type=\"text\" name=\"act1\" value=\"Click to upload video\" float=\"left\" onclick=\"if(value==defaultValue){value='';this.style.color='#000'}\" onBlur=\"if(!value){value=defaultValue;this.style.color='#999'}\" >\n" +
                 "                        </form>\n" +
                 "                    </div>\n" +
                 "\n" +
@@ -559,15 +583,28 @@
         }
 
     }
-    function material_choose(obj){
-
-        obj.style.backgroundColor="orange";
-
+    function material_choose(obj) {
+        var c = obj.className;
+        var choices = document.getElementsByClassName(c);
+        //alert(choices[0].style.backgroundColor)
+        for (var i = 0; i < choices.length; i++) {
+            choices[i].style.backgroundColor = 'lightyellow'
+        }
+        obj.style.backgroundColor = "orange";
     }
     function form_click(obj)
     {
-        obj.style.boxShadow="0 4px 8px 0 rgba(0, 0, 0, 0.2)"
+        obj.style.boxShadow="0 4px 8px 0 rgba(0, 0, 0, 0.2)";
+    }
+    function act_choose(obj)
+    {
 
+        var choices = document.getElementsByClassName('single_choice3');
+        //alert(choices[1].style.backgroundColor)
+        for (var i = 0; i < choices.length; i++) {
+            choices[i].style.backgroundColor = 'white'
+        }
+        obj.style.backgroundColor = "orange";
     }
 </script>
 
