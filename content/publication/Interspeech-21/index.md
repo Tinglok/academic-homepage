@@ -3,8 +3,8 @@ title: "CVC: Contrastive Learning for Non-parallel Voice Conversion"
 date: 2020-10-21
 authors: ["**Tingle Li**", "Yichen Liu", "Chenxu Hu", "Hang Zhao"]
 publication_types: ["3"]
-publication: "Submitted to INTERSPEECH 2021"
-abstract: "Submitted to INTERSPEECH 2021"
+publication: "*INTERSPEECH*, Brno, Czechia, August 2021"
+abstract: "*INTERSPEECH*, Brno, Czechia, August 2021"
 links:
   - name: PDF
     url: 'https://arxiv.org/pdf/2011.00782.pdf'
