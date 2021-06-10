@@ -66,6 +66,5 @@ subtitle = ""
  css_class = ""
 +++
 
-- **Jul. 25, 2020:**  Two papers were accepted by [INTERSPEECH 2020](http://www.interspeech2020.org/), please check them out!
-- **May. 14, 2020:**  Our DKU systems were ranked **1st** in SID and **3rd** in SAD among all the participants in [Fearless Steps Challenge Phase-02](https://fearless-steps.github.io/ChallengePhase2/index.html).
-- **Mar. 20, 2020:** One paper has been accepted by [Speaker Odyssey 2020](http://www.odyssey2020.org/), which is about the loss function in End-to-End Speaker Diarization.
+- **Jun. 2021:**  One paper was accepted by [INTERSPEECH 2021](http://www.interspeech2021.org/), please check it out!
+- **May. 2020:**  Our DKU systems were ranked **1st** in SID and **3rd** in SAD among all the participants in [Fearless Steps Challenge Phase-02](https://fearless-steps.github.io/ChallengePhase2/index.html).
