@@ -59,8 +59,8 @@ user_groups:
 - Visitors
 ---
 
-I am currently a research assistant (a research-oriented program during COVID-19) in [Institute for Interdisciplinary Information Sciences](https://iiis.tsinghua.edu.cn/en/), Tsinghua University, where I am fortunate to work with Prof. [Hang Zhao](http://people.csail.mit.edu/hangzhao/).
+I am currently a research assistant (a research-oriented program during COVID-19) in [Institute for Interdisciplinary Information Sciences](https://iiis.tsinghua.edu.cn/en/), Tsinghua University, advised by Prof. [Hang Zhao](http://people.csail.mit.edu/hangzhao/). I am also lucky to work with Prof. [Andrew Owens](http://andrewowens.com/) from [The University of Michigan](https://umich.edu/).
 
-I obtained my B.E. from [Tiangong University](http://en.tiangong.edu.cn/). During my undergraduate study, I spent an unforgettable year working in Speech and Multimodal Intelligent Information Processing (SMIIP) Lab, [Duke Kunshan University](https://dukekunshan.edu.cn/en), advised by Prof. [Ming Li](https://scholars.duke.edu/person/MingLi). 
+I obtained my B.E. from [Tiangong University](http://en.tiangong.edu.cn/). During my undergraduate, I spent an unforgettable year studying at [Duke Kunshan University](https://dukekunshan.edu.cn/en), advised by Prof. [Ming Li](https://scholars.duke.edu/person/MingLi). 
 
 My past research revolves around making machines that can listen, but I am recently engaged in audio-visual learning, using unlabeled and weakly-labeled data.
