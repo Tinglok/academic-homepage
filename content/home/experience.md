@@ -38,7 +38,7 @@ date_format = "Jan 2006"
   
 [[experience]]
   title = "Research Intern"
-  company = "SMIIP Lab, Duke Kunshan University"
+  company = "Data Science Research Center, Duke Kunshan University"
   company_url = ""
   location = "Suzhou, China"
   date_start = "2019-07-01"
