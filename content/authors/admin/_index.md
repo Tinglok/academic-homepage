@@ -41,8 +41,8 @@ social:
   icon_pack: fas
   link: 'mailto:tingle.li@outlook.com'  # For a direct email link, use "mailto:".
 - icon: google-scholar
-- icon_pack: ai
-- link: https://scholar.google.com/citations?user=UGpC1zgAAAAJ&hl=en
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=UGpC1zgAAAAJ&hl=en
 - icon: github
   icon_pack: fab
   link: https://github.com/Tinglok
